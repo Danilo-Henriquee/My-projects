@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 15px;
+            font-style: italic;
+        }
+        th {
+            text-align: left;
+        }
+        p {
+            text-align: left;
+            font-style: italic;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<!-- 
+    <th> - Table header: Define o cabecario
+    <td> - Table data: Define uma coluna
+    <tr> - Table rows: Define uma linha na tabela    
+-->
+    <body>
+        <p>Sudeste x Sul</p>
+        <table style="width: 400px;">
+            <tr>
+                <th colspan="2">Estados</th>
+                <th>Cidades</th>
+            </tr>
+            <tr>
+                <td rowspan="9">Sudeste</td>
+            </tr>
+            <tr>
+                <td rowspan="2">São Paulo</td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>São Paulo</li>
+                        <li>Campinas</li>
+                        <li>Guarulhos</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Rio de Janeiro</td>
+            </tr>
+            <tr>
+                <td>
+                    <ol>
+                        <li>Rio de Janeiro</li>
+                        <li>São Gonçalo</li>
+                        <li>Duque de Caxias</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Minas Gerais</td>
+            </tr>
+            <tr>
+                <td>
+                    <ul style="list-style: circle;">
+                        <li>Belo Horizonte</li>
+                        <li>Uberlandia</li>
+                        <li>Contagem</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Espirito Santo</td>
+            </tr>
+            <tr>
+                <td>
+                    <ol type="I">
+                        <li>Vila Velha</li>
+                        <li>Serra</li>
+                        <li>Cartacica</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="9">Sul</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Rio Grande do Sul</td>
+            </tr>
+            <tr>
+                <td>
+                    <ol type="a">
+                        <li>Porto Alegre</li>
+                        <li>Caxias do Sul</li>
+                        <li>Pelotas</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Paraná</td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Curitiba</li>
+                        <li>Lodrina</li>
+                        <li>Maringá</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Santa Catarina</td>
+            </tr>
+            <tr>
+                <td>
+                    <ol type="1">
+                        <li>Joinvile</li>
+                        <li>florianopoles</li>
+                        <li>Blumenau</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

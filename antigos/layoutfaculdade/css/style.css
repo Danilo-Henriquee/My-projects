@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(/layoutfaculdade/img/Onça-pintada-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -110px;
+}
+nav.title{
+    background:#4d6600;
+    height: 70px;
+    width: 100%;
+}
+nav ul {
+    float:right;
+    margin-right: 20px;
+}
+nav ul li {
+    position: relative;
+    display: inline-flex;
+    line-height: 30px;
+    margin: 0 20px;
+    bottom: 100px;
+}
+nav ul li a {
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+nav ul li a.active, nav ul li a:hover {
+    background:#8db80b;
+    transition: .5s;
+}
+h1{
+    position: relative;
+    font-size: 18px;
+    color:#fff;
+    font-weight: bold;
+    bottom: 25px;
+    width: 200px;
+}
+.icone {
+    position: relative;
+    height: 67px;
+    left: 10px;
+}
+.ipas {
+    display: flex;
+    position: relative;
+    width: 200px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    left: 85px;
+    bottom: 30px;
+}
+.icone-contato {
+    position: relative;
+    width: 25px;
+    top: 6.5px;
+}
+.icone-info {
+    position: relative;
+    width: 20px;
+    top: 4px;
+}
+.contato {
+    position: relative;
+    right: 140px;
+}
+.info {
+    position: relative;
+    right: 800px;
+}
+#texto-secundario {
+    position: relative;
+    background-color: rgba(77, 102, 0, 0.7);
+    width: 380px;
+    height: 500px;
+    top: 150px;
+    left: 350px;
+}
+.biodiversidade {
+    position: relative;
+    display: flex;
+    color: #cdff19;
+    bottom: 30px;
+    justify-content: center;
+}
+.conteudo {
+    position: relative;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.projetos a{
+    position: relative;
+    display: flex;
+    color: #cdff19;
+    font-weight: none;
+    top: 50px;
+    font-size: 20px;
+    justify-content: center;
+    text-decoration: underline;
+}
+.icone-flor {
+    position: relative;
+    left: 100px;
+    top: 20px;
+    width: 180px;
+}
+.pesquisa {
+    display: flex;
+    position: relative;
+    font-size: 50px;
+    color: white;
+    bottom: 190px;
+    font-weight: bold;
+    justify-content: flex-end;
+    right: 300px;
+}
+.degrade {
+    position: relative;
+    top: 87px;
+    padding-top: 30px;
+    background-image: linear-gradient(to top, #4d6600 15%, transparent 100%);
+}
+.seta-parabaixo {
+    animation: balançar 1s infinite alternate;
+    display: flex;
+    position: relative;
+    width: 65px;
+    left: 950px;
+}
+@keyframes balançar {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
+  @-webkit-keyframes balançar {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }

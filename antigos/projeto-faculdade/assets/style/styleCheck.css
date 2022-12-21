@@ -1,0 +1,150 @@
+* {
+    text-decoration: none;
+    background-color: black;
+    font-family: "HWTUnitGothic", yu-mincho-pr6n, sans-serif;
+}
+.head {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: white;
+    font-family: "HWTUnitGothic", yu-mincho-pr6n, sans-serif;
+    font-weight: bold;
+    letter-spacing: .065em;
+    font-size: 25px;
+}
+.logo {
+    height: 150px;
+    width: 180px;
+}
+div .logo {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25px;
+    padding-bottom: 20px;
+}
+h6 {
+    position: relative;
+    display: flex;
+    color: white;
+    font-size: 13px;
+    justify-content: center;
+    bottom: 25px;
+}
+h6 a {
+    color: rgb(240, 224, 136);
+    text-decoration: underline;
+}
+form input {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(56, 55, 55);
+    width: 80px;
+    height: 80px;
+    margin-left: 15px ;
+    border: 1.5px solid;
+    border-color: rgb(56, 55, 55);
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(240, 224, 136);
+}  
+input:hover {
+    color: rgb(61, 61, 61);
+    background: rgb(131, 131, 131);
+    border: 1.5px solid;
+    border-color: rgb(240, 224, 136);
+}
+form {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: 30px;
+}
+#day {
+    margin-left: 0;
+}
+.slogan {
+    display: flex;
+    position: relative;
+    color: rgb(240, 224, 136);
+    font-size: 25px;
+    justify-content: center;
+    top: 20px;
+    font-family: 'Courier New', Courier, monospace
+}
+.line {
+    width: 50%;
+    border-color: rgb(240, 224, 136);
+}
+#content {
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: white;
+    font-family: "HWTUnitGothic", yu-mincho-pr6n, sans-serif;
+    font-weight: bold;
+    letter-spacing: .065em;
+    font-size: 30px;
+    top: 30px;
+}
+#copyright {
+    display: flex;
+    position: relative;
+    color: white;
+    justify-content: center;
+    top: 50px;
+    font-size: 15px;
+}
+#advertments {
+    display: flex;
+    position: relative;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-family: "HWTUnitGothic", yu-mincho-pr6n, sans-serif;
+    font-weight: bold;
+    top: 20px;
+    font-size: 18px;
+}
+p.laws a{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: rgb(240, 224, 136);
+    font-family: "HWTUnitGothic", yu-mincho-pr6n, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    top: 5px;
+}
+button {
+    display: flex;
+    position: relative;
+    background-color: rgb(56, 55, 55);
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+    top: 30px;
+    border: 1.5px solid;
+}
+.entryBtn {
+    padding: 15px; 
+    cursor: pointer; 
+    color: rgb(131, 131, 131); 
+    border: none; 
+    font-size: 16px;
+    border: 1.5px solid;
+}
+button:hover {
+    color: rgb(240, 224, 136);
+    background: rgb(56, 55, 55);
+    border: 1.5px solid;
+    border-color: rgb(240, 224, 136);
+}
+.btnEntry {
+    display: flex;
+    justify-content: center;
+}

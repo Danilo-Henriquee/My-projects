@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Store</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 class="slogan">General Store</h1><img class="logo"
+                src="./assets/img/icone-generalStore.png" alt="">
+        </div>
+        <h4 class="head">Por favor insira seu ano de nascimento</h4>
+        <h6 class="head-children">
+            Ao entrar, você aceita nossos
+            <a href="" class="terms">&nbsp;Termos e Condições&nbsp;</a>e
+            <a href="" class="terms">&nbsp;Política de Privacidade&nbsp;</a> .
+        </h6>
+        <form action="" class="birth" id="form">
+            <input class="day" type="text" placeholder="DD" maxlength="2"
+                oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
+            <input class="month" type="text" placeholder="MM" maxlength="2"
+                oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
+            <input class="year" type="text" placeholder="AAAA" maxlength="4"
+                oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
+        </form>
+    </header>
+    <hr class="line">
+    <section>
+        <div id="container">
+            <div>
+                <p id="advertments">
+                    Nosso compromisso é assegurar que bebidas alcoólica vendidas <br>
+                    sobre as depêndencias da General Store sejam apreciadas com <br>
+                    responsabilidade e por maiores de 18 anos. pré estabelecida pela
+                </p>
+            </div>
+            <div>
+                <p class="laws">
+                    <a href="http://www.planalto.gov.br/ccivil_03/leis/l8069.htm" target="_blank">
+                        LEI Nº 8.069, DE 13 DE JULHO DE 1990.
+                    </a>
+                </p>
+            </div>
+            <div class="btnEntry">
+                <div>
+                    <a href="./index.html" class="place-of-button"></a>
+                </div>   
+            </div>
+            <div>
+                <h5 id="content">Beba com moderação</h5>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <h2 id="copyright">© 2022-2022 General Store & CO, Inc. Todos os direitos reservados.</h2>
+    </footer>
+    <script src="./assets/js/checkScript.js"></script>
+</body>
+</html>
